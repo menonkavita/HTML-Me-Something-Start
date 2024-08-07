@@ -1,2 +1,128 @@
 /* Write your CSS here! */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/1.jpg');
+
+    /* Set a specific height */
+    height: 65%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+/* Currently not in use */
+.hero-text {
+    text-align: end;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+body {
+    /* element selector */
+    margin: 8px;                                    /* required */ 
+    display: block;                                 /* required */
+    background-color: white;
+    font-family: cursive;
+    font-size: 17px;
+    color: darkslateblue;
+    text-align: center;
+
+   /* width: 100px;
+    max-width: 1024px;*/
+}
+body, html {
+    height: 100%;
+}
+
+header, main, footer, section, div{
+    background-color: #ddd;
+    padding: 30px;
+}
+
+/*h2, h3, h4 {
+    max-width: auto;
+}*/
+
+h1, h2, h3, h4 {
+    background-color: rgb(247,247,251);
+    padding: 30px;  
+    text-align: center;
+    color: coral;
+    max-width: auto;
+}
+
+p{
+    padding: 5px;
+    position: relative;;
+}
+
+.responsive{
+/*    width: 100%;*/
+    max-width: 100%;
+    height: auto;
+}
+
+
+#mainHeading{                                    /* required */
+    color: red;
+
+}
+
+.funParagraph{                                    /* required */
+    color: green;
+    text-align: center;
+}
+
+.center {                                       /* class selector */
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+#left{                                          /* id selector - required */
+    text-align: left;
+    padding-left: 300px;                        /* Padding for Recipe - Bullets, bring to center of page */
+    padding-right: 300px;
+}
+
+#left{                                          /* id selector - required */
+    text-align: left;
+    padding-left: 300px;                        /* Padding for Recipe - Bullets, bring to center of page */
+    padding-right: 300px;
+}
+
+.textPadding{                                   /* Padding for Recipe Intro to bring to center of page */
+    padding-left: 300px;         
+    padding-right: 300px;
+}
+
+/* ----------------- DELETE --------------------------
+ id selector - had to remove from h1 to replace with #mainHeading 
+#colorWhite {
+    
+    background-color: white;
+}
+
+.white {                                        // class selector 
+   
+    background-color: white;
+}*/
+
+
 
