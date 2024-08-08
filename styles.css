@@ -1,5 +1,5 @@
 /* Write your CSS here! */
-* {
+* {                                                    /* Removes any default margin or padding assigned to page, so that new ones can be set */
     margin: 0;
     padding: 0;
 }
@@ -20,8 +20,7 @@
 }
 
 /* Place text in the middle of the image */
-/* Currently not in use */
-.hero-text {
+.hero-text {                                                    /* Currently not in use */
     text-align: end;
     position: absolute;
     top: 90%;
@@ -31,10 +30,18 @@
     color: white;
 }
 
+body, html {                      
+    height: 100%;
+    width: 100%;
+	/*max-width: 1024px;                            M       essing the display of the webpage, so not in use */
+	margin: 0 auto;
+    background-color: #999;
+}
+
 body {
     /* element selector */
-    margin: 8px;                                    /* required */ 
-    display: block;                                 /* required */
+    margin: 8px;                                    /* required by Assignment */ 
+    display: block;                                 /* required by Assignment */
     background-color: white;
     font-family: cursive;
     font-size: 17px;
@@ -44,20 +51,14 @@ body {
    /* width: 100px;
     max-width: 1024px;*/
 }
-body, html {
-    height: 100%;
-}
+
 
 header, main, footer, section, div{
     background-color: #ddd;
     padding: 30px;
 }
 
-/*h2, h3, h4 {
-    max-width: auto;
-}*/
-
-h1, h2, h3, h4 {
+h1, h2, h3, h4 {                                                   
     background-color: rgb(247,247,251);
     padding: 30px;  
     text-align: center;
@@ -67,22 +68,22 @@ h1, h2, h3, h4 {
 
 p{
     padding: 5px;
-    position: relative;;
+    position: relative;
 }
 
-.responsive{
+.responsive{                                    /* makes images responsive */
 /*    width: 100%;*/
     max-width: 100%;
     height: auto;
 }
 
 
-#mainHeading{                                    /* required */
+#mainHeading{                                    /* required by Assignment; also is an #id, so fulfils condition of #id */
     color: red;
 
 }
 
-.funParagraph{                                    /* required */
+.funParagraph{                                    /* required by Assignment */
     color: green;
     text-align: center;
 }
@@ -91,38 +92,15 @@ p{
     text-align: center;
 }
 
-.right {
+.right {                                       /* class selector for hyperlink to 'Top'  */
     text-align: right;
 }
 
-#left{                                          /* id selector - required */
+.alignLeft{                                          /* id selector - required */
     text-align: left;
-    padding-left: 300px;                        /* Padding for Recipe - Bullets, bring to center of page */
-    padding-right: 300px;
 }
 
-#left{                                          /* id selector - required */
-    text-align: left;
-    padding-left: 300px;                        /* Padding for Recipe - Bullets, bring to center of page */
-    padding-right: 300px;
-}
 
-.textPadding{                                   /* Padding for Recipe Intro to bring to center of page */
-    padding-left: 300px;         
-    padding-right: 300px;
-}
-
-/* ----------------- DELETE --------------------------
- id selector - had to remove from h1 to replace with #mainHeading 
-#colorWhite {
-    
-    background-color: white;
-}
-
-.white {                                        // class selector 
-   
-    background-color: white;
-}*/
 
 
 
