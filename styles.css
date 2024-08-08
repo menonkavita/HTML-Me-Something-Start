@@ -33,9 +33,9 @@
 body, html {                      
     height: 100%;
     width: 100%;
-	/*max-width: 1024px;                            M       essing the display of the webpage, so not in use */
+	/*max-width: 1024px;                                          Messing the display of the webpage, so not in use */
 	margin: 0 auto;
-    background-color: #999;
+
 }
 
 body {
@@ -71,33 +71,49 @@ p{
     position: relative;
 }
 
-.responsive{                                    /* makes images responsive */
+.responsive{                                                /* makes images responsive */
 /*    width: 100%;*/
     max-width: 100%;
     height: auto;
 }
 
 
-#mainHeading{                                    /* required by Assignment; also is an #id, so fulfils condition of #id */
+#mainHeading{                                               /* required by Assignment; also is an #id, so fulfils condition of #id */
     color: red;
 
 }
 
-.funParagraph{                                    /* required by Assignment */
+.funParagraph{                                              /* required by Assignment */
     color: green;
     text-align: center;
 }
 
-.center {                                       /* class selector */
+.center {                                                    /* class selector */
     text-align: center;
 }
 
-.right {                                       /* class selector for hyperlink to 'Top'  */
+.right {                                                    /* class selector for hyperlink to 'Top'  */
     text-align: right;
 }
 
-.alignLeft{                                          /* id selector - required */
+.alignLeft{                                                  /* id selector - required */
     text-align: left;
+}
+
+nav ul{
+    text-align: right;
+    padding: 0;
+    
+}
+
+nav ul li{
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #ddd;
 }
 
 
