@@ -1,5 +1,6 @@
 /* Write your CSS here! */
-* {                                                    /* Removes any default margin or padding assigned to page, so that new ones can be set */
+* {
+    /* Removes any default margin or padding assigned to page, so that new ones can be set */
     margin: 0;
     padding: 0;
 }
@@ -8,6 +9,8 @@
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/1.jpg');
+
+    /* rgba - alpha defines opacity; accepts values between 0 to 1 */
 
     /* Set a specific height */
     height: 65%;
@@ -20,8 +23,8 @@
 }
 
 /* Place text in the middle of the image */
-.hero-text {                                                    /* Currently not in use */
-    text-align: end;
+.hero-text {
+    text-align: end;                                                         /* Currently not in use */
     position: absolute;
     top: 90%;
     left: 80%;
@@ -30,83 +33,99 @@
     color: white;
 }
 
-body, html {                      
+body,
+html {
     height: 100%;
     width: 100%;
-	/*max-width: 1024px;                                          Messing the display of the webpage, so not in use */
-	margin: 0 auto;
+    /*max-width: 1024px;                                          Messing the display of the webpage, so not in use */
+    margin: 0 auto;
 
 }
 
 body {
     /* element selector */
-    margin: 8px;                                    /* required by Assignment */ 
-    display: block;                                 /* required by Assignment */
+    margin: 8px;
+    /* required by Assignment */
+    display: block;
+    /* required by Assignment */
     background-color: white;
     font-family: cursive;
     font-size: 17px;
     color: darkslateblue;
     text-align: center;
 
-   /* width: 100px;
+    /* width: 100px;
     max-width: 1024px;*/
 }
 
 
-header, main, footer, section, div{
+header,
+main,
+footer,
+section,
+div {
     background-color: #ddd;
     padding: 30px;
 }
 
-h1, h2, h3, h4 {                                                   
-    background-color: rgb(247,247,251);
-    padding: 30px;  
+h1,
+h2,
+h3,
+h4 {
+    background-color: rgb(247, 247, 251);
+    padding: 30px;
     text-align: center;
     color: coral;
     max-width: auto;
 }
 
-p{
+p {
     padding: 5px;
     position: relative;
 }
 
-.responsive{                                                /* makes images responsive */
-/*    width: 100%;*/
+.responsive {
+    /* makes images responsive */
+    /*    width: 100%;*/
     max-width: 100%;
     height: auto;
 }
 
 
-#mainHeading{                                               /* required by Assignment; also is an #id, so fulfils condition of #id */
+#mainHeading {
+    /* required by Assignment; also is an #id, so fulfils condition of #id */
     color: red;
 
 }
 
-.funParagraph{                                              /* required by Assignment */
+.funParagraph {
+    /* required by Assignment */
     color: green;
     text-align: center;
 }
 
-.center {                                                    /* class selector */
+.center {
+    /* class selector */
     text-align: center;
 }
 
-.right {                                                    /* class selector for hyperlink to 'Top'  */
+.right {
+    /* class selector for hyperlink to 'Top'  */
     text-align: right;
 }
 
-.alignLeft{                                                  /* id selector - required */
+.alignLeft {
+    /* id selector - required */
     text-align: left;
 }
 
-nav ul{
+nav ul {
     text-align: right;
     padding: 0;
-    
+
 }
 
-nav ul li{
+nav ul li {
     margin-right: 15px;
     display: inline-block;
     font-size: 15px;
@@ -115,8 +134,3 @@ nav ul li{
 nav {
     background-color: #ddd;
 }
-
-
-
-
-
