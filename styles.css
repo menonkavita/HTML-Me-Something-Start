@@ -8,7 +8,7 @@
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Images/1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('./Images/1.jpg');
 
     /* rgba - alpha defines opacity; accepts values between 0 to 1 */
 
@@ -134,3 +134,35 @@ nav ul li {
 nav {
     background-color: #ddd;
 }
+
+.leftPadding{
+    padding-left: 7%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 17px;
+  }
+
+  .recipePadding{
+        padding-left: 5%;
+        padding-right: 5%;
+  }
+
+  .itemPadding{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .imgCredit{
+    font-size: 15px;;
+  }
